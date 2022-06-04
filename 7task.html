@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+  <form action="#" method="get" enctype="multipart/form-data">
+    <div>
+      <input type="text" name="plasehold" placeholder="Плейсхолдер"></div> 
+    <br>
+    <div>
+      <input type="text" name="value" value="Value">
+    </div>
+    <br>
+    <div>
+      <input type="text" name="disabled" disabled value="disabled">
+    </div>
+    <br>
+    <div>
+      <input type="password" name="paasword" value="Gfhjkm">
+    </div>
+    <br>
+    <div>
+      <textarea name="textarea" placeholder="Введите текст"></textarea>
+    </div>
+    <br>
+    <div>
+      <input type="button" value="Кнопка через тег Input">
+    </div>
+    <br>
+    <div>
+      <button type="submit">Кнопка через тег Button</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+      <p><input type="text" name="2" placeholder="Плейсхолдер">Это метка для инпута - нажмите меня - и инпут получит фокус!</p>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Отправить на сервер</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div>
+      <p><input type="checkbox" name="checkbox1">Это метка для чекбокса: нажмите меня - чекбокс сменит галочку!</p>
+    </div>
+    <div>
+      <p><input type="checkbox" checked name="checkbox2">Я отмечен по умолчанию!</p>
+    </div>
+    <div>
+      <p><input type="checkbox" disabled name="checkbox3">Я disabled!</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+      <p>Это группа радиокнопок - только одна может быть отмечена!</p>
+      <div>
+        <p><input type="radio" name="radio">Радио 1</p>
+      </div>
+      <div>
+        <p><input type="radio" name="radio">Радио тапок</p>
+      </div>
+      <div>
+        <button type="submit">Отправить на сервер</button>
+      </div>
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+    <select name="sities1">
+      <option value="New">Нью Йорк</option>
+      <option value="Kiev">Киев</option>
+      <option value="Moscow">Москва</option>
+      <option value="Minsk">Минск</option>
+      <option value="Varsava">Варшава</option>
+    </select>
+    <select multiple name="sities2">
+      <option value="New">Нью Йорк</option>
+      <option value="Kiev">Киев</option>
+      <option value="Moscow">Москва</option>
+    </select>
+    <select multiple name="sities3">
+      <option selected value="New">Нью Йорк</option>
+      <option value="Kiev">Киев</option>
+      <option value="Moscow">Москва</option>
+      <option value="Minsk">Минск</option>
+      <option value="Varsava">Варшава</option>
+    </select>
+    <input type="button" value="Отправить на сервер">
+    <br>
+    <hr>
+    <br>
+    <input type="file" name="file">
+    <button type="submit">Отправить на сервер</button>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+      <Legend>Выберите кнопочку</Legend>
+      <input name="legend" type="radio">
+      <input name="legend" type="radio">
+      <input name="legend" type="radio">
+      <input type="text" name="legend" placeholder="Ваше имя...">
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <Legend>Выберите кнопочку</Legend>
+      <input name="legend2" type="radio">
+      <input name="legend2" type="radio">
+      <input name="legend2" type="radio">
+      <input disabled name="legend2" type="radio">
+      <input disabled name="legend2" type="radio">
+    </fieldset>
+    <br>
+    <button type="submit">Отправить на сервер</button>
+  </form>
+  <br>
+  <br>
+  <a href="6task.html">Задача 6</a>
+  </body>
+</html>
